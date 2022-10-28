@@ -1,11 +1,22 @@
 footer
 {
-    background-color: black;
+    background-color: maroon;
     color:#FFFF;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bolder;
     clear: both;
+}
+
+
+.cadastroCavalo{
+    background-color: wheat;
+    margin-top: 5%;
+    padding: 3%;
+    margin-left: 35%;
+    width: 400px;
+    border-radius: 5%;
+    font-weight: bolder;
 }
 

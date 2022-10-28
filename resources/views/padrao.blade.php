@@ -13,7 +13,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand text-white" href="{{route('home')}}"></a>
-    <img src="{{'public/img/HorseLogo.png'}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    <img src="{{'/public/img/HorseLogo.png'}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,16 +23,16 @@
           <a class="nav-link active text-white" aria-current="page" href="{{route('home')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Cadastar Cavalos</a>
+          <a class="nav-link text-white" href="{{route('cadastrar-cavalo')}}">Cadastar Cavalos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Meus Cavalos</a>
+          <a class="nav-link text-white" href="/editar-cavalo">Meus Cavalos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-white">Sobre</a>
+          <a class="nav-link disabled text-white" href="...">Sobre</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-white">Contato</a>
+          <a class="nav-link disabled text-white" href="...">Contato</a>
         </li>
       </ul>
     </div>
