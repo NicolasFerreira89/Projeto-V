@@ -14,7 +14,7 @@ class CavaloController extends Controller
         return view ('cadastrarCavalo');
     }
 
-    public function EditarCavalo(Request $request)
+    public function EditarCavalo(Request $request )
     {
         $dadoscavalo = Cavalo::query();
         $dadoscavalo->when($request->raca,function($query, $valor)
@@ -22,6 +22,7 @@ class CavaloController extends Controller
             $query->where('raca','like','%'.$valor.'%');
         });
         
+        $dadoscavalo = $dadoscavalo->get();
         return view('editarCavalo',['registroCavalo'=> $dadoscavalo]);
     
     }
@@ -41,14 +42,14 @@ class CavaloController extends Controller
         return Redirect::route('home');
     }
 
-    public function ApagarCavalo(Cavalo $registroCavalos)
+    public function ApagarCavalo(Cavalo $registrosCavalos)
     {
-        $registroCavalos->delete();
+        $registrosCavalos->delete();
 
-        return Redirect::route('editarCavalo');
+        return Redirect::route('editar-cavalo');
     }
 
-    public function AlterarBancoCavalo(Cavalo $registroCavalos, Request $request)
+    public function AlterarBancoCavalo(Cavalo $registrosCavalos, Request $request)
     {
         $banco = $request->validate([
             'raca'=> 'string|required',
@@ -58,9 +59,9 @@ class CavaloController extends Controller
             'valor'=> 'string|required'
         ]);
 
-        $registroCavalos->fill($banco);
-        $registroCavalos->save();
+        $registrosCavalos->fill($banco);
+        $registrosCavalos->save();
 
-        return Redirect::route('editarCavalo');
+        return Redirect::route('editar-cavalo');
     }
 }

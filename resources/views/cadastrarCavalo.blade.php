@@ -2,6 +2,7 @@
 @section('content')
 
 <section>
+<div class="conatiner planofundo">
 <div class="container cadastroCavalo">
 <form class="row g-3" method="post" action="{{route('salvar-banco-cavalo')}}">
   @csrf
@@ -22,7 +23,7 @@
     @enderror
   </div>
   <div class="col-12">
-    <label for="inputAno" class="form-label">Idade</label>
+    <label for="inputAno" class="form-label">Idade (Anos)</label>
     <input type="text" name="idade" value="{{old('idade')}}" class="form-control" id="inputAno" placeholder="">
     @error('Idade')
     <div class="text-sm-start text-light"> Preencher o campo "Idade"</div>
@@ -48,6 +49,7 @@
     <button type="submit" class="btn btn-primary bg-dark">Cadastrar</button>
   </div>
 </form>
+</div>
 </div>
 </section>
 

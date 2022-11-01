@@ -1,6 +1,7 @@
 @extends('padrao')
 @section('content')
-<section>
+<main>
+<section class="home">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -9,24 +10,18 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{'/public/img/thoroughbred-horse.jpg.jpg'}}" class="d-block w-100" alt="Wallpaper 1">
+      <img src="{{'img/imgRdR2(1).jpg'}}" class="d-block w-100" alt="Wallpaper 1">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{'/public/img/WhiteArabian.jpg'}}" class="d-block w-100" alt="...">
+      <img src="{{'img/imgRdR2(2).jpg'}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{'/public/img/MissouriFoxTrotter.jpg'}}" class="d-block w-100" alt="...">
+      <img src="{{'img/imgRdR2(3).jpg'}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   </div>
@@ -42,26 +37,26 @@
 
 <section class="cards">
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="{{'img/MissouriFoxTrotter.jpg'}}" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
   </div>
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="{{'img/thoroughbred-horse.jpg'}}" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.</p>
   </div>
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="{{'img/WhiteArabian.jpg'}}" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.  </p>
   </div>
 </div>
 </section>
 </section>
-
+</main>
 @endsection 

@@ -1,8 +1,7 @@
 @extends('padrao')
 @section('content')
 
-<section class="container m-5">
-
+<section class="container m-6">
 <div class="container m-5" >
 <form method="get" Action="/editar-cavalo">
 <div class="row center">
@@ -28,13 +27,14 @@
       <th scope="col">Idade</th>
       <th scope="col">Pelo</th>
       <th scope="col">Valor</th>
-      
+      <th scope="col">Editar</th>
+      <th scope="col">Excluir</th>
     </tr>
   </thead>
   <tbody>
     @foreach($registroCavalo as $registrosCavalos)
     <tr>
-      <th scope="row">{{$registroCavalo->id}}</th>
+      <th scope="row">{{$registrosCavalos->id}}</th>
       <td>{{$registrosCavalos->raca}}</td>
       <td>{{$registrosCavalos->funcao}}</td>
       <td>{{$registrosCavalos->idade}}</td>

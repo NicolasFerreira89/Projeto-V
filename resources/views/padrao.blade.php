@@ -13,7 +13,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand text-white" href="{{route('home')}}"></a>
-    <img src="{{'/public/img/HorseLogo.png'}}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    <img src="{{'img/Horse-jump-icon-vector.png'}}" alt="Logo" width="150 " height="80" class="d-inline-block align-text-top">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,10 +43,10 @@
 <footer>
     <p>Siga-nos nas redes Sociais!</p>
     <br>
-    <a href="" <img src="{{'/public/img/icons8-facebook-48.png'}}" alt="Facebook"></a>
-    <a href="" <img src="{{'/public/img/icons8-twitter-48.png'}}" alt="Twitter"></a>
-    <a href="" <img src="{{'/public/img/icons8-instagram-48.png'}}" alt="Instagram"></a>
-    <a href="" <img src="{{'/public/img/icons8-reproduzir-youtube-48.png'}}" alt="YouTube"></a>
+    <a href="..." <img src="{{'img/icons8-facebook-48.png'}}" alt="Facebook"></a>
+    <a href="..." <img src="{{'img/icons8-twitter-48.png'}}" alt="Twitter"></a>
+    <a href="..." <img src="{{'img/icons8-instagram-48.png'}}" alt="Instagram"></a>
+    <a href="..." <img src="{{'img/icons8-reproduzir-youtube-48.png'}}" alt="YouTube"></a>
     <br>
     <br>
     <p>@Horses 2022. All Rights Reserved</p>

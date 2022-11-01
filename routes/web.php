@@ -26,3 +26,4 @@ Route::post('/cadastrar-cavalo',[CavaloController::class,'SalvarBancoCavalo'])->
 Route::delete('/editar-cavalo/{registrosCavalos}',[CavaloController::class,'ApagarCavalo'])->name('apagar-cavalo');
 Route::get('/alterar-cavalo/{registrosCavalos}',[CavaloController::class,'AlterarCavalo'])->name('alterar-cavalo');
 Route::put('/editar-cavalo',[CavaloController::class,'AlterarBancoCavalo'])->name('alterar-banco-cavalo');
+    

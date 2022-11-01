@@ -6,17 +6,45 @@ footer
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bolder;
-    clear: both;
+    
 }
 
 
-.cadastroCavalo{
-    background-color: wheat;
+.cadastroCavalo
+{
+    background-color: rgba(#FFFF,0,0,0.0);
     margin-top: 5%;
     padding: 3%;
     margin-left: 35%;
     width: 400px;
     border-radius: 5%;
     font-weight: bolder;
+}
+
+.home{
+    background-color: wheat;
+}
+
+.cards .card
+{
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.card
+{
+    justify-content: center;
+    
+}
+
+.table{
+    font-weight: normal;
+}
+
+.planofundo{
+    
+    background: #ffff url('img/trackes.jpg') no-repeat right top fixed;
 }
 
