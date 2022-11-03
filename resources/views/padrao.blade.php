@@ -28,31 +28,26 @@
         <li class="nav-item">
           <a class="nav-link text-white" href="/editar-cavalo">Meus Cavalos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled text-white" href="...">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled text-white" href="...">Contato</a>
-        </li>
+        
       </ul>
     </div>
   </div>
 </nav>
 </header>
-
-<footer>
+@yield('content')
+<footer id="footer">
     <p>Siga-nos nas redes Sociais!</p>
     <br>
-    <a href="..." <img src="{{'img/icons8-facebook-48.png'}}" alt="Facebook"></a>
-    <a href="..." <img src="{{'img/icons8-twitter-48.png'}}" alt="Twitter"></a>
-    <a href="..." <img src="{{'img/icons8-instagram-48.png'}}" alt="Instagram"></a>
-    <a href="..." <img src="{{'img/icons8-reproduzir-youtube-48.png'}}" alt="YouTube"></a>
+    <a href="..."> <img src="{{'img/icons8-facebook-48.png'}}" alt="Facebook"></a>
+    <a href="..."><img src="{{'img/icons8-twitter-48.png'}}" alt="Twitter"></a>
+    <a href="..."><img src="{{'img/icons8-instagram-48.png'}}" alt="Instagram"></a>
+    <a href="..." ><img src="{{'img/icons8-reproduzir-youtube-48.png'}}" alt="YouTube"></a>
     <br>
     <br>
     <p>@Horses 2022. All Rights Reserved</p>
 
 </footer>
-@yield('content')
+
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

@@ -1,4 +1,4 @@
-footer
+#footer
 {
     background-color: maroon;
     color:#FFFF;
@@ -6,13 +6,13 @@ footer
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bolder;
-    
+    height: auto;
 }
 
 
 .cadastroCavalo
 {
-    background-color: rgba(#FFFF,0,0,0.0);
+    background-color: rgba(#FFFF, 0, 0, 0.);
     margin-top: 5%;
     padding: 3%;
     margin-left: 35%;
@@ -30,21 +30,19 @@ footer
     margin-top: 20px;
     padding: 20px;
     justify-content: center;
-    
-}
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    }
 
-.card
-{
-    justify-content: center;
-    
-}
 
 .table{
     font-weight: normal;
 }
 
-.planofundo{
+.cadastrarCavalo{
     
-    background: #ffff url('img/trackes.jpg') no-repeat right top fixed;
+    background-image: url('../img/lojaRdr2.jpg');
+    background-position: 0%;
 }
 
